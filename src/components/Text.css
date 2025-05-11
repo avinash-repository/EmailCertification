@@ -1,0 +1,52 @@
+.wrapper{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    overflow: hidden;
+
+}
+.wrapper-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    animation: anil 24s ease-out forwards;
+
+}
+
+.wrapper-text{
+    padding: 10px;
+    text-align: center;
+    font-size: 45px;
+    line-height: 55px;
+    letter-spacing: 5px;
+    font-family: poppins;
+    text-transform: uppercase;
+    margin-bottom: 180px;
+    padding: 3rem 2rem;
+    color: white;
+    border-radius: 0.25rem;
+    background-color: transparent;
+    opacity: 0;
+    animation: ani2 2s ease-out forwards;
+}
+.wrapper-text h2{
+    opacity: 0;
+    margin: 0;
+
+}
+
+.wrapper-text h2{
+    animation: ani2 2.75s ease-out forwards;
+}
+@keyframes ani2{
+    100%{
+        opacity: 1;
+    }
+
+}

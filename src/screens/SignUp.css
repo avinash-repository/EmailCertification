@@ -1,0 +1,60 @@
+/* src/App.css */
+.cont {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background:  rgb(65, 64, 72);
+  }
+  
+  .signup-container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px; 
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 1.5rem; 
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  label {
+    margin-bottom: 10px; 
+    font-size: 16px; 
+  }
+  
+  input,
+  textarea {
+    padding: 12px; 
+    margin-bottom: 15px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px; 
+  }
+  
+  button {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px; 
+    background-color: #dab316;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #b3d652;
+  }
+  
